@@ -1,8 +1,29 @@
-#picture{
-	width: 250px;
-	height: 250px;
+body{
+	margin: 0px; 
+}
+.littleContainer{
+	
+}
+.container{
+	text-align: center;
+}
+.quotes{
+	font-family: 'Thasadith', sans-serif;
+	font-size: 50px;
+	color: #454442;
+}
+
+.box{
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+.Profile{
 	border-radius: 50%;
 }
-.tittle{
-	margin-bottom: 30px;
+.Tittle{
+	font-family: 'Roboto', sans-serif;
+	color: #313c5a;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	background-color: #f2f2f2;
 }
