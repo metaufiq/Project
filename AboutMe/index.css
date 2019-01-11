@@ -9,6 +9,13 @@ body{
 	font-size: 50px;
 	color: white;
 }
+
+.box{
+	padding-top: 50px;
+	padding-bottom: 15px;
+	background-color: #313c5a;
+}
+
 .littleContainer{
 	min-width: auto;
 	min-height: auto;
@@ -19,6 +26,7 @@ body{
 	border: 1px solid #ededed;
 	border-radius: 8px;
 	padding-left: 8px;
+	margin-top: 25px;
 }
 
 .date{
@@ -35,11 +43,7 @@ body{
 	margin-left: 5px;
 }
 
-.box{
-	padding-top: 50px;
-	padding-bottom: 15px;
-	background-color: #313c5a;
-}
+
 .Profile{
 	border-radius: 50%;
 }
