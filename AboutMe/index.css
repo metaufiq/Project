@@ -10,6 +10,8 @@ body{
 	color: #454442;
 }
 .littleContainer{
+	min-width: auto;
+	min-height: auto;
 	height: 150px;
 	width: 750px;
 	margin-left: auto;
