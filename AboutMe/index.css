@@ -21,6 +21,9 @@ body{
 	padding-left: 8px;
 	margin-top: 25px;
 }
+.first{
+	margin-top: -25px;
+}
 
 .date{
 	margin-bottom: 15px;
