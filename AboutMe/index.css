@@ -3,6 +3,7 @@ body{
 }
 .container{
 	text-align: center;
+	margin-top: 0px;
 }
 .quotes{
 	font-family: 'Thasadith', sans-serif;
@@ -14,7 +15,7 @@ body{
 	padding-top: 50px;
 	padding-bottom: 15px;
 	background-color: #313c5a;
-	margin-bottom: 0;
+	margin-bottom: 0px;
 }
 
 .littleContainer{
