@@ -3,8 +3,15 @@ body{
 }
 .container{
 	text-align: center;
-	margin-top: 0px;
 }
+.containerEven{
+	
+	background-color: #f2f2f2;
+}
+.containerOdd{
+	background-color: #313c5a;
+}
+
 .quotes{
 	font-family: 'Thasadith', sans-serif;
 	font-size: 50px;
@@ -14,8 +21,8 @@ body{
 .box{
 	padding-top: 50px;
 	padding-bottom: 15px;
-	background-color: #313c5a;
-	margin-bottom: 0px;
+	display: block;
+	overflow: hidden;
 }
 
 .littleContainer{
@@ -49,17 +56,14 @@ body{
 .Profile{
 	border-radius: 50%;
 }
-.TittleOdd{
+.Tittle{
 	font-family: 'Roboto', sans-serif;
-	color: #313c5a;
 	padding-top: 100px;
 	padding-bottom: 20px;
-	background-color: #f2f2f2;
+}
+.TittleOdd{
+	color: #313c5a;
 }
 .TittleEven{
-	font-family: 'Roboto', sans-serif;
 	color: white;
-	padding-top: 100px;
-	padding-bottom: 20px;
-	background-color: #313c5a;
 }
