@@ -43,10 +43,17 @@ body{
 .Profile{
 	border-radius: 50%;
 }
-.Tittle{
+.TittleOdd{
 	font-family: 'Roboto', sans-serif;
 	color: #313c5a;
 	padding-top: 100px;
 	padding-bottom: 20px;
 	background-color: #f2f2f2;
+}
+.TittleEven{
+	font-family: 'Roboto', sans-serif;
+	color: white;
+	padding-top: 100px;
+	padding-bottom: 20px;
+	background-color: #313c5a;
 }
