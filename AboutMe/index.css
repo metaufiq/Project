@@ -2,68 +2,80 @@ body{
 	margin: 0px; 
 }
 .container{
-	text-align: center;
-}
-.containerEven{
-	
-	background-color: #f2f2f2;
-}
-.containerOdd{
-	background-color: #313c5a;
+	display: grid;
+	grid-template-columns: 1fr;
 }
 
+/*box start*/
+.box{
+	background-color: #313c5a;
+	text-align: center;
+	padding: 0px;
+}
+.Profile{
+	margin-top: 50px;
+	border-radius: 50%;
+}
 .quotes{
 	font-family: 'Thasadith', sans-serif;
 	font-size: 50px;
 	color: white;
 }
+/*box end*/
 
-.box{
-	padding-top: 50px;
-	padding-bottom: 15px;
-	display: block;
-	overflow: hidden;
+/*Tittle start*/
+.containerTittleEven{	
+	background-color: #f2f2f2;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.containerTittleOdd{
+	background-color: #313c5a;
+	text-align: center;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+.Tittle{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+.TittleEven{
+	color: #313c5a;
+}
+.TittleOdd{
+	color: white;
+}
+
+/*Tittle End*/
+
+/*subContainer1 Start*/
+.subContainer1{
+	display: grid;
+	grid-template-columns: 750px;
+	justify-content: center;
 }
 
 .littleContainer{
-	min-width: auto;
-	min-height: auto;
 	height: 150px;
 	width: 750px;
-	margin-left: auto;
-	margin-right: auto;
 	border: 1px solid #ededed;
 	border-radius: 8px;
-	padding-left: 8px;
-	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 5px;
+
 }
 
 .date{
 	margin-bottom: 15px;
 	color: #5a5a5a;
-}
-
-.Roboto{
 	font-family: 'Roboto', sans-serif;
-	
 }
 .littleTittle{
 	color: #313c5a;
 	margin-left: 5px;
-}
-
-
-.Profile{
-	border-radius: 50%;
-}
-.Tittle{
 	font-family: 'Roboto', sans-serif;
-	padding-top: 100px;
-	padding-bottom: 20px;
 }
-.TittleOdd{
-	color: #313c5a;
-}
-.TittleEven{
-	color: white;
-}
+/*subContainer1 End*/
+
