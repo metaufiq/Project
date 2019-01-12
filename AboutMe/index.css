@@ -79,13 +79,36 @@ body{
 	}
 /*subContainer1 End*/
 
+/*subContainerSkill*/
+	.containerSkill{
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-template-rows: 200px;
+		background-color: #f2f2f2;
+		color: #313c5a;
+		font-family: 'Roboto', sans-serif;
+	}
+	.skillTittle{
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	.subContainerSkill{
+		display: grid;
+		grid-template-columns: 15px 15px;
+		grid-column-gap: 100px;
+		justify-content: left;
+		padding: 5px;
+		padding-left: 50px;
+	}
+
 /*subContainer2 Start*/
 	.subContainer2{
 		display: grid;
 		grid-template-columns: 400px 400px;
 		grid-column-gap: 50px;
 		justify-content: center;
-
+		margin-bottom: 15px;
+		padding: 5px;
 
 	}
 
@@ -93,11 +116,11 @@ body{
 		border-radius: 8px;
 		padding: 10px;
 		border: 1px solid #ededed;
-		color: #13304c;
 	}
 
 	.projectTittle{
 		text-align: center;
+		color: #13304c;
 	}
 
 	.grayColor{
@@ -108,3 +131,12 @@ body{
 		margin-top: 85px;
 		margin-bottom: 80px;
 	}
+	.button{
+		background-color: white;
+		padding-top: 25px;
+	}
+	button:hover{
+		cursor: pointer;
+		background-color: #eeeeee;
+	}
+/*subContainer2 end*/
