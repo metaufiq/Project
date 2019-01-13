@@ -97,10 +97,11 @@ body{
 	.containerSkill{
 		display: grid;
 		grid-template-columns: 3fr 1fr;
-		grid-template-rows: 200px;
+		grid-template-rows: 225px;
 		background-color: #f2f2f2;
 		color: #313c5a;
 		font-family: 'Roboto', sans-serif;
+		padding-bottom: 15px;
 	}
 	.skillTittle{
 		margin-top: 50px;
@@ -109,9 +110,8 @@ body{
 	.subContainerSkill{
 		display: grid;
 		grid-template-columns: 15px 15px;
-		grid-column-gap: 100px;
+		grid-column-gap: 80px;
 		justify-content: left;
-		padding: 5px;
 		padding-left: 50px;
 	}
 
@@ -184,7 +184,8 @@ body{
 	}
 
 	.footer a:hover{
-		color: #1d3556;
+		text-decoration: underline;
+		color: #6b6b6b;
 	}
 
 	.footer a:active {
