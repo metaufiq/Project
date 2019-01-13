@@ -39,8 +39,8 @@ body{
 	}
 	.Tittle{
 		font-family: 'Roboto', sans-serif;
-		margin-top: 50px;
-		margin-bottom: 20px;
+		margin-top: 75px;
+		margin-bottom: 50px;
 	}
 	.TittleEven{
 		color: #313c5a;
@@ -64,8 +64,15 @@ body{
 		border: 1px solid #ededed;
 		border-radius: 8px;
 		margin-bottom: 35px;
-		padding: 5px;
+		padding: 15px;
 
+	}
+
+	.born{
+		display: grid;
+		grid-template-columns: 1fr;
+		color: white;
+		justify-content: center;
 	}
 
 	.date{
@@ -77,6 +84,12 @@ body{
 		color: #313c5a;
 		margin-left: 5px;
 		font-family: 'Roboto', sans-serif;
+	}
+
+	.GPA{
+		margin-left: 82%;
+		color: #5a5a5a;
+		margin-top: 50px;
 	}
 /*subContainer1 End*/
 
@@ -141,3 +154,41 @@ body{
 		background-color: #eeeeee;
 	}
 /*subContainer2 end*/
+/*Footer begin*/
+	.footer{
+		display: grid;
+		grid-template-columns: 400px;
+		justify-content: center;
+		margin-top: 100px;
+		background-color: #404040;
+		padding-top: 15px;
+		padding-bottom: 2px;
+		text-align: center;
+		color: white
+	}
+
+	.contact{
+		display: grid;
+		grid-template-columns: 400px 400px;
+		grid-gap: 50px;
+		justify-content: center;
+	}
+
+	#godown{
+		margin-top: 50px;
+	}
+
+	.footer a{
+		color: white;
+		text-decoration:none;
+	}
+
+	.footer a:hover{
+		color: #1d3556;
+	}
+
+	.footer a:active {
+  		color: #eeeeee;
+	}
+
+/*Footer End*/
