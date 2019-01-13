@@ -115,6 +115,15 @@ body{
 		padding-left: 50px;
 	}
 
+	.caution{
+		margin-top: 85px;
+		margin-bottom: 80px;
+		font-size: 12px;
+	}
+	.skill{
+		font-size: 18px;
+	}
+
 /*subContainer2 Start*/
 	.subContainer2{
 		display: grid;
@@ -139,11 +148,6 @@ body{
 
 	.grayColor{
 		color: #9e9e9e;
-	}
-
-	.caution{
-		margin-top: 85px;
-		margin-bottom: 80px;
 	}
 	.button{
 		background-color: white;
