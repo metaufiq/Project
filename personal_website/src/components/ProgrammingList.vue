@@ -4,7 +4,6 @@
             <span style="">
                 <i class="fab fa-android"></i>
             </span>
-            
             <h4>ANDROID DEVELOPMENT</h4>
             <p>explaination about what i can do on android</p>
         </div>
@@ -42,25 +41,28 @@ export default {
 <style lang="scss" scoped>
 #list{
   display: grid;
-  max-width: calc(100vw-2rem);
-  width: 100vw;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 5rem;
+  margin-top: 5vw;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  align-items: center;
   grid-column-gap: 1rem;
   #item{
       text-align: center;
-      padding: 2rem;
-
+      padding: 2rem 2vw;
     span{
         font-size: 40px; color:#42b983;
     }
   }
   #itemRobot{
     text-align: center;
-    padding: 2.7rem;
+    padding: 0rem 2vw;
     span{
         font-size: 30px; color:#42b983;
     }
+  }
+  #robottittle{
+      padding-top: 10px;
   }
 
 }
