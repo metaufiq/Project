@@ -17,3 +17,10 @@ export default {
 }
 </script>
 
+<style lang="scss" scoped>
+p{
+  width: 100vw;
+}
+</style>
+
+

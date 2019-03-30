@@ -12,7 +12,7 @@
             <span id="robot">
                 <i class="fas fa-robot"></i>
             </span>
-            <h4 id="robottittle">A.I</h4>
+            <h4 id="robottittle">ARTIFICIAL INTELLIGENCE</h4>
             <p>explaination about what i can do on A.I</p>
         </div>
         <div id="item">
@@ -42,6 +42,8 @@ export default {
 <style lang="scss" scoped>
 #list{
   display: grid;
+  max-width: calc(100vw-2rem);
+  width: 100vw;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 5rem;
   grid-column-gap: 1rem;
@@ -55,7 +57,7 @@ export default {
   }
   #itemRobot{
     text-align: center;
-    padding: 2.5rem;
+    padding: 2.7rem;
     span{
         font-size: 30px; color:#42b983;
     }
