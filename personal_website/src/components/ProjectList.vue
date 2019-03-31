@@ -2,13 +2,13 @@
     <div id="list">
         <div id="project">
             <div id="projectTittle">
-                <h2>Project Tittle</h2>
+                <h2>MyWorld</h2>
             </div>
             <div id="image">
                 <img src="https://cdn3.vox-cdn.com/thumbor/bPCRIdjx6NGcRodhN6CgGwrhJy8=/0x1080/volume-assets.voxmedia.com/production/7cd11af9a0191b0eba43afdbe4e0172a/Action_forest.png" alt="" id="image">
             </div>
             <div id="description">
-                <p>description about this project</p>
+                <p>MyWorld is a game that implement MineCraft world to website,so you can create and enjoy the world.We use Three.js to create this project</p>
             </div> 
         </div>
     </div>
