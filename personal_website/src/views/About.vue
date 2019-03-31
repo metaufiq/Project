@@ -20,6 +20,9 @@ export default {
 <style lang="scss" scoped>
 .about{
   margin:0 0;
+  p{
+    margin-bottom: 4vw;
+  }
 }
 </style>
 

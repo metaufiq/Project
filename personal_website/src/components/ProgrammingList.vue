@@ -1,36 +1,35 @@
 <template>
-    <div id="list">
-        <div id="item">
-            <span style="">
-                <i class="fab fa-android"></i>
-            </span>
-            <h4>ANDROID DEVELOPMENT</h4>
-            <p>i really love to learn and create andriod app,
+        <table id="list">
+            <tr>
+                <td id="item">
+                    <i class="fab fa-android"></i>
+                </td>
+                <td id="itemRobot">
+                    <i class="fas fa-robot">
+                        </i></td>
+                <td id="item">
+                    <i class="far fa-file-code"></i>
+                </td>
+                <td id="item">
+                    <i class="fas fa-gamepad"></i>
+                </td>
+            </tr>
+            <tr id="tittle">
+                <th>ANDROID DEVELOPMENT</th>
+                <th>ARTIFICIAL INTELLIGENCE</th>
+                <th>WEB DEVELOPMENT</th>
+                <th>GAME DEVELOPMENT</th>
+            </tr>
+
+            <tr id="description">
+                <td><p>i really love to learn and create andriod app,
                 one of my project [Deen] is an to do list app,
-                i build it for myself.</p>
-        </div>
-        <div id="itemRobot">
-            <span id="robot">
-                <i class="fas fa-robot"></i>
-            </span>
-            <h4 id="robottittle">ARTIFICIAL INTELLIGENCE</h4>
-            <p>i love A.I! i really want to create an A.I that have a purpose for me or for others </p>
-        </div>
-        <div id="item">
-            <span>
-                <i class="far fa-file-code"></i>
-            </span>
-            <h4>WEB DEVELOPMENT</h4>
-            <p>this is the field that I'm <b>focusing</b> on now,i really enjoy to create a website,especially on back-end part</p>
-        </div>
-        <div id="item">
-            <span>
-                <i class="fas fa-gamepad"></i>
-            </span>
-            <h4>GAME DEVELOPMENT</h4>
-            <p>i really enjoy to create a game,making something move and interact with other thing has its own charm from my prespective</p>
-        </div>
-    </div>
+                i build it for myself.</p></td>
+                <td><p>i love A.I! i really want to create an A.I that have a purpose for me or for others </p></td>
+                <td><p>this is the field that I'm <b>focusing</b> on now,i really enjoy to create a website,especially on back-end part</p></td>
+                <td><p>i really enjoy to create a game,making something move and interact with other thing has its own charm from my prespective</p></td>
+            </tr>
+        </table>
 </template>
 
 <script>
@@ -40,31 +39,27 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#list{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin-top: 5vw;
-  padding: 0 5%;
-  align-items: center;
-  grid-column-gap: 1rem;
-  #item{
-      text-align: center;
-      padding: 0 2vw;
-    span{
-        font-size: 40px; color:#42b983;
-    }
-  }
-  #itemRobot{
-    text-align: center;
-    padding: 0 2vw;
-    span{
-        font-size: 25px; color:#42b983;
-    }
-  }
-  #robottittle{
-  }
+    #list{
+        width: 85vw;
+        margin-left:auto; 
+        margin-right:auto;
+        
+        #item{
+            font-size: 30px;
+            color: #42b983;
+        }
+        #itemRobot{
+            font-size: 25px;
+            color:#42b983;
+        }
+        td{
+            padding: 0 2vw;
+        }
 
-}
+        #tittle>th{
+            padding-top: 2vw;
+        }
+
+    }
 </style>
 
