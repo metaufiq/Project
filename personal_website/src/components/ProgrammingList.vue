@@ -26,7 +26,7 @@
                 <i class="fas fa-gamepad"></i>
             </span>
             
-            <h4>GAME-DEVELOPMENT</h4>
+            <h4>GAME DEVELOPMENT</h4>
             <p>explaination about what i can do on Game Development</p>
         </div>
     </div>
@@ -43,8 +43,7 @@ export default {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-top: 5vw;
-  margin-left: 8vw;
-  margin-right: 8vw;
+  padding: 0 5%;
   align-items: center;
   grid-column-gap: 1rem;
   #item{
@@ -56,7 +55,7 @@ export default {
   }
   #itemRobot{
     text-align: center;
-    padding: 0rem 2vw;
+    padding: 2rem 2vw;
     span{
         font-size: 30px; color:#42b983;
     }
