@@ -61,5 +61,20 @@
             }
         }
     }
+
+    @media screen and (max-width: 800px){
+        #list{
+            #project{
+                #image{
+                    grid-area: img;
+                    padding-left: 2vw;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
 </style>
 

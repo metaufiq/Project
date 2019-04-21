@@ -22,6 +22,8 @@ export default {
   margin:0 0;
   p{
     margin-bottom: 4vw;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 </style>
