@@ -65,6 +65,7 @@
     @media screen and (max-width: 800px){
         #list{
             #project{
+                grid-template-columns: 20% 80%;
                 #image{
                     grid-area: img;
                     padding-left: 2vw;
