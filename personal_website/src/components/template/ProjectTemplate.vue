@@ -1,14 +1,22 @@
 <template>
-    <div id="project">
-            <div id="projectTittle">
+    <div class="project">
+            <div class="projectTittle">
                 <h2>{{name}}</h2>
             </div>
-            <div id="image">
-                <img :src="img" alt="" id="image">
+            <div class="image">
+                <img :src="img" alt="" class="image">
             </div>
-            <div id="descAndPlay">
+            <div class="descAndPlay">
                 <!-- <p>MyWorld is a game that implement MineCraft world to website,so you can create and enjoy the world.We use Three.js to create this project</p> -->
-                <p>{{desc}}</p>
+                <div class="description">
+                    <p >{{desc}}</p>
+                </div>
+                <div class="git">
+                    <p><a :href="git">see code</a></p>
+                </div>
+                <div class="play" :style="'display:'+view+';'">
+                   <p><a href="https://www.youtube.com/">play</a></p>
+                </div>
             </div> 
     </div>
 </template>
@@ -20,25 +28,27 @@ export default {
   props: {
     name: String,
     desc: String,
-    img: String
+    img: String,
+    git: String,
+    view: String
   }
 }
 </script>
 
 <style lang="scss" scoped>
-        #project{
+        .project{
             display: grid;
             grid-template-columns: 30% 70%;
             grid-template-areas: 
                 "tittle tittle"
-                "img description";
+                "img descAndPlay";
 
             margin-bottom: 3vw;
-            #projectTittle{
+            .projectTittle{
                 grid-area: tittle;
                 text-align: left;
             }
-            #image{
+            .image{
                 grid-area: img;
                 padding-left: 2vw;
                 img{
@@ -47,23 +57,43 @@ export default {
                 }
             }
 
-            #descAndPlay{
-                grid-area: description;
+            .descAndPlay{
+                grid-area: descAndPlay;
+                display: grid;
+                grid-template-columns: 15% 15% auto;
+                grid-template-areas: 
+                "description description description"
+                "git  play xxx";
+                padding-left:5vw;
                 text-align: left;
-                padding-left: 6vw;
+                .description{
+                    grid-area: description;
+
+                }
+                .git{
+                    grid-area: git;
+                }
+                .play{
+                    grid-area: play;
+                }
             }
+ 
         }
 
         @media screen and (max-width: 800px) {
-            #project{
+            .project{
                 grid-template-columns: 50% 60%;
-                #image{
+                .image{
                     grid-area: img;
                     padding-left: 2vw;
                     img{
                         width: 100%;
                         height: 90%;
                     }
+                }
+
+                .descAndPlay{
+                    grid-template-columns: 50% 50% auto;
                 }
             }
         }
