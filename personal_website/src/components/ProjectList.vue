@@ -2,7 +2,7 @@
     <div id="list">
         <ProjectTemplate 
         name='MyWorld' 
-        img= '/img/MyWorld.ab56a7dd.png' 
+        img= 'MyWorld.png' 
         desc='MyWorld is a game that implement MineCraft world to website,so you can create and enjoy the world.We use Three.js to create this project'
         git='https://github.com/metaufiq/College/tree/master/Computer%20Graphics/FinalProject/MyWorld'
         view = 'active'>
@@ -10,7 +10,7 @@
 
         <ProjectTemplate
         name = 'This Website too!'
-        img  = '/img/PersonalWebsite.e108f925.png'
+        img  = 'PersonalWebsite.png'
         desc = 'I use Vue.js to create this website and i hope you like it'
         git = 'https://github.com/metaufiq/Project/tree/master/personal_website'
         view ='none'>
