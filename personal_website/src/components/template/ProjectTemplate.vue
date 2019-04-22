@@ -4,7 +4,7 @@
                 <h2>{{name}}</h2>
             </div>
             <div class="image">
-                <img :src="img" alt="" class="image">
+                <img v-bind:src="img" alt="" class="image">
             </div>
             <div class="descAndPlay">
                 <!-- <p>MyWorld is a game that implement MineCraft world to website,so you can create and enjoy the world.We use Three.js to create this project</p> -->
