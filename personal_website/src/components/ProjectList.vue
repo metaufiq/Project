@@ -2,7 +2,7 @@
     <div id="list">
         <ProjectTemplate 
         name='MyWorld' 
-        img='/img/MyWorld.ab56a7dd.png' 
+        img='../img/MyWorld.ab56a7dd.png' 
         desc='MyWorld is a game that implement MineCraft world to website,so you can create and enjoy the world.We use Three.js to create this project'
         git='https://github.com/metaufiq/College/tree/master/Computer%20Graphics/FinalProject/MyWorld'
         view = 'active'>
