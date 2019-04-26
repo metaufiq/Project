@@ -15,7 +15,7 @@
                     <p><a :href="git">see code</a></p>
                 </div>
                 <div class="play" :style="'display:'+view+';'">
-                   <p><a href="https://www.youtube.com/">play</a></p>
+                   <p><a :href="link">play</a></p>
                 </div>
             </div> 
     </div>
@@ -30,7 +30,8 @@ export default {
     desc: String,
     img: String,
     git: String,
-    view: String
+    view: String,
+    link: String
   }
 }
 </script>
