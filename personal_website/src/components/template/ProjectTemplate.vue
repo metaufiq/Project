@@ -15,7 +15,7 @@
                     <p><a :href="git">see code</a></p>
                 </div>
                 <div class="play" :style="'display:'+view+';'">
-                   <p><a :href="link">play</a></p>
+                   <p><a :href="'www.'+link">play</a></p>
                 </div>
             </div> 
     </div>
