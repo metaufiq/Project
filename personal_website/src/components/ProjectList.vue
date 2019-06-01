@@ -10,7 +10,7 @@
         </ProjectTemplate>
 
         <ProjectTemplate
-        name = 'This Website too!'
+        name = 'This Website too test!'
         img  = 'PersonalWebsite.png'
         desc = 'I use Vue.js to create this website and i hope you like it'
         git = 'https://github.com/metaufiq/Project/tree/master/personal_website'
